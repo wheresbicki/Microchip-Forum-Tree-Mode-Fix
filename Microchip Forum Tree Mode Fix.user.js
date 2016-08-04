@@ -5,6 +5,7 @@
 // @description  Trys to change the Microchip Thread view to Flat Mode.
 // @author       Joe Wierzbicki
 // @include      http://www.microchip.com/forums/*
+// @exclude      http://www.microchip.com/forums/tm.aspx?tree=true&m=*&mpage=*
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @noframes
