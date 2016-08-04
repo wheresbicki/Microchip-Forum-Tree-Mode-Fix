@@ -15,5 +15,7 @@ GreaseMonkey:
 https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
 
 2) Download the Microchip-Forum-Tree-Mode-Fix.user.js file
+
 3) Open up the Add-Ons/Extension window and drag file onto window.
+
 4) Click yes to install.
