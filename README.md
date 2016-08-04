@@ -7,6 +7,7 @@ INSTALLATION:
 1) First install a script utility browser extension to the browser of your choice.
 
 CHROME  - Tampermonkey: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
+
 FIREFOX - GreaseMonkey: https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
 
 2) Download the Microchip-Forum-Tree-Mode-Fix.user.js file
