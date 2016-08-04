@@ -7,47 +7,11 @@
 // @include      http://www.microchip.com/forums/*
 // @grant        GM_getValue
 // @grant        GM_setValue
+// @noframes
 //
 // ==/UserScript==
 
-
-var alreadyRun = GM_getValue("alreadyRun", false);
-if ( ! alreadyRun) {
-    GM_setValue ("alreadyRun", true);
-   // alert ("This part of the script will run exactly once per install.");
+if(window.location.href.indexOf("tree=true") > -1) {
     var url = window.location.toString();
     window.location = url.replace('tree=true', 'tree=false');
 }
-
-
-//Stuff that didn't work
-
-
-//window.addEventListener('load', function() {
-    // your code here
-//
-//}, false);
-
-//var links,thisLink;
-//links = document.evaluate("//a[@href]",
-//    document,
-//    null,
-//    XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE,
-//    null);
-//for (var i=0;i<links.snapshotLength;i++) {
-//    var thisLink = links.snapshotItem(i);
-
-//    thisLink.href = thisLink.href.replace('tree=true', 'tree=false');
-//}
-
-//var doStuff = "true";
-
-//(function (){
-//    function whatever() {
- //       if(doStuff == "true"){
- //           doStuff = "false";
-//            var url = window.location.toString();
- //           window.location = url.replace('tree=true', 'tree=false');
-//        }
-//    }
-//})();
